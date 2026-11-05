@@ -1,0 +1,7 @@
+Svarah/
+IndicTTS/
+*.wav
+*.npy
+checkpoints/
+Results/
+.ipynb_checkpoints/

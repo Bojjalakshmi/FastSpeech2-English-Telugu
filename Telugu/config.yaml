@@ -1,0 +1,23 @@
+
+language: Telugu
+audio:
+  sample_rate: 22050
+  n_fft: 1024
+  hop_length: 256
+  win_length: 1024
+  n_mels: 80
+  fmin: 0
+  fmax: 8000
+model:
+  hidden: 256
+  n_mels: 80
+  n_heads: 2
+  n_layers: 4
+  dropout: 0.1
+training:
+  epochs: 100
+  batch_size: 8
+  learning_rate: 0.0001
+paths:
+  checkpoint_dir: Telugu/checkpoints
+  results_dir: Results/Telugu
